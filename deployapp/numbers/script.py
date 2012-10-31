@@ -4,8 +4,8 @@ import classifier
 
 if __name__ == '__main__':
     """Script should be called with one argument: path to input file.
-    The input file should be line-delimited and container only numbers.
-    The output file is 'result'."""
+    The input file should be line-delimited and contain only numbers.
+    The output is written to a file named 'result.data'."""
 
     with open(sys.argv[1]) as f:
         values = (int(line) for line in f)
